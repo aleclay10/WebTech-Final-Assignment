@@ -1,0 +1,130 @@
+/* main.css */
+html, body {
+    max-width: 1000px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#colorsdisabled {
+    background-color: white;
+    color: black;
+    vertical-align: top;
+}
+
+#darkmode {
+    background-color: gray;
+}
+
+#header {
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+#duckarea {
+    border-style: solid;
+    border-color: green;
+    border-width: 10px;
+    margin: 5px;
+    float: right;
+}
+
+#duck {
+    background-color: white;
+    background-size: 150px 100px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+}
+
+#aleclayton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#profession {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
+    text-align: left;
+}
+
+table {
+    min-height: 50%;
+    border-spacing: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+#leftmenu {
+    width: 130px;
+    background-color: green;
+    color: white;
+    vertical-align: top;
+}
+
+#leftmenuColorsDisabled {
+    width: 130px;
+    background-color: white;
+    color: black;
+    vertical-align: top;
+}
+
+#menuheader {
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+
+#aboutme {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    min-width: 300px;
+    text-align: justify;
+    vertical-align: top;
+}
+
+#aboutmeheader {
+    color: black;
+}
+
+#mansiscoding {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    margin: 20px;
+    float: right;
+}
+
+#rightmenu {
+    background-color: orange;
+    color: white;
+    vertical-align: top;
+}
+
+#rightmenuColorsDisabled {
+    background-color: white;
+    color: black;
+    vertical-align: top;
+}
+
+#footerbox {
+    border-color: green;
+    border-width: 5px;
+    border-style: dashed;
+    text-align: left;
+    padding-bottom: 75px;
+}
+
+#enrolled {
+    color: black;
+    background-color: lightblue;
+}
+
+#notEnrolled {
+    color: grey;
+}
